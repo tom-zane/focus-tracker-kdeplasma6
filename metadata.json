@@ -1,0 +1,26 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "arubk744@gmail.com",
+                "Name": "Aryan Sharma"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "A simple plasmoid to track your focus time and breaks.",
+        "Icon": "clock",
+        "Id": "com.github.tom-zane.focus-tracker",
+        "Name": "Focus Tracker",
+        "Licence": "GPL-2.0+",
+        "Version": "1.0.0",
+        "Website": "https://github.com/tom-zane/kde-focus-tracker",
+        "BugReportUrl": "https://github.com/tom-zane/kde-focus-tracker/issues"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "ServiceTypes": ["Plasma/Applet"],
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Requires-Root": false,
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": ["org.kde.plasma.core"]
+}
